@@ -30,6 +30,7 @@ The dataset is intentionally imperfect at the raw stage to reflect real-world da
 ---
 
 ## Project Structure
+```
 financial-performance-snapshot/
 ├── data/
 │   ├── raw/
@@ -49,7 +50,7 @@ financial-performance-snapshot/
 │   └── executive_summary.md
 │
 └── README.md
-
+```
 ---
 
 ## Analytical Workflow
@@ -149,3 +150,4 @@ Potential extensions of this project include:
 ## Author
 
 Franco Martini
+
