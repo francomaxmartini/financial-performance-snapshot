@@ -31,23 +31,22 @@ The dataset is intentionally imperfect at the raw stage to reflect real-world da
 
 ## Project Structure
 financial-performance-snapshot/
-│
 ├── data/
-│ ├── raw/ # Original source data
-│ └── clean/ # Cleaned, analytics-ready dataset
+│   ├── raw/
+│   └── clean/
 │
 ├── notebooks/
-│ ├── 01_data_exploration.ipynb
-│ ├── 02_data_cleaning.ipynb
-│ └── 03_kpi_analysis.ipynb
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   └── 03_kpi_analysis.ipynb
 │
 ├── sql/
-│ ├── 00_validation_checks.sql
-│ ├── 01_core_kpis.sql
-│ ├── 02_time_based_kpis.sql
+│   ├── 00_validation_checks.sql
+│   ├── 01_core_kpis.sql
+│   ├── 02_time_based_kpis.sql
 │
 ├── reports/
-│ └── executive_summary.md
+│   └── executive_summary.md
 │
 └── README.md
 
@@ -148,4 +147,5 @@ Potential extensions of this project include:
 ---
 
 ## Author
+
 Franco Martini
