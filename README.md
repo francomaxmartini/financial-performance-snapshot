@@ -1,10 +1,8 @@
 # Financial Performance Snapshot
+*End-to-End Financial Data Quality, KPI & Profitability Analysis*
 
 ## Overview
-This project presents an **end-to-end financial performance analysis** built on transactional data.  
-The objective is to create a **reliable financial snapshot** by validating data quality, defining core financial KPIs, and analyzing performance trends over time.
-
-The project demonstrates how financial analytics can be structured from **raw data ingestion** through **cleaning, KPI computation, SQL validation, and executive-ready reporting**.
+This project analyzes transaction-level financial data to assess revenue, cost, profitability, and margin performance over time. The analysis follows an end-to-end workflow from raw-data validation and cleaning to KPI calculation, SQL reconciliation, trend analysis, and executive-level interpretation.
 
 ---
 
@@ -25,7 +23,7 @@ Answer the following key questions:
 - Three-month time horizon
 - Synthetic dataset designed to simulate real operational behavior
 
-The dataset is intentionally imperfect at the raw stage to reflect real-world data challenges.
+**Limitations**: The dataset is synthetic and covers a three-month period. Results should therefore be interpreted as an analytical demonstration rather than a representation of actual business performance.
 
 ---
 
@@ -108,42 +106,12 @@ SQL files located in the `sql/` directory.
 
 ---
 
-## Key Insights
-- The business operates with **healthy profitability** and a controlled cost structure.
-- Daily performance shows natural volatility, while monthly aggregation smooths fluctuations.
-- Margins remain relatively stable, with a mild decline observed in the final month under analysis.
-- No critical data quality issues were identified that would invalidate KPI interpretation.
-
-Detailed conclusions are documented in `reports/executive_summary.md`.
-
----
-
 ## Tools & Technologies
 - **Python** (pandas, numpy, matplotlib)
 - **Jupyter Notebooks**
 - **PostgreSQL**
 - **SQL**
 - **Git / GitHub**
-
----
-
-## Why This Project Matters
-This project demonstrates the ability to:
-- Structure financial analytics from raw data to executive insights
-- Apply rigorous data validation before KPI computation
-- Translate Python-based analysis into SQL for production environments
-- Communicate results clearly to non-technical stakeholders
-
-It reflects real-world analytics and finance consulting workflows.
-
----
-
-## Next Steps
-Potential extensions of this project include:
-- Product or customer-level profitability analysis
-- Forecasting and budget variance analysis
-- Dashboard development (Power BI / Tableau)
-- Automation of the data pipeline
 
 ---
 
